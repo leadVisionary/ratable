@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.visionarysoftwaresolutions</groupId>
+	<artifactId>ratable</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<name>Ratable</name>
+	<url>http://www.github.com/leadVisionary/ratable</url>
+	<description>A simple library library for Ratable entities, defined as Objects that can be rated on a rating scale. </description>
+	<inceptionYear>April 2012</inceptionYear>
+	<organization>
+		<name>Visionary Software Solutions</name>
+		<url>http://www.visionarysoftwaresolutions.com</url>
+	</organization>
+	<scm>
+		<url>http://www.github.com/leadVisionary/ratable</url>
+	</scm>
+	<dependencies>
+		<dependency>
+			<groupId>com.visionarysoftwaresolutions</groupId>
+			<artifactId>reviewable</artifactId>
+			<version>1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.spockframework</groupId>
+			<artifactId>spock-core</artifactId>
+			<version>0.6-groovy-1.8</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	<distributionManagement>
+		<repository>
+			<id>repo</id>
+			<url>https://github.com/leadVisionary/mvn-repo/raw/master/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshot-repo</id>
+			<url>https://github.com/leadVisionary/mvn-repo/raw/master/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+	<repositories>
+		<repository>
+			<id>snapshots</id>
+			<url>https://github.com/leadVisionary/mvn-repo/raw/master/snapshots</url>
+		</repository>
+		<repository>
+			<id>releases</id>
+			<url>https://github.com/leadVisionary/mvn-repo/raw/master/releases</url>
+		</repository>
+	</repositories>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+</project>

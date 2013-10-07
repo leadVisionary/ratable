@@ -4,7 +4,7 @@ import com.visionarysoftwaresolutions.reviewable.Review
 import com.visionarysoftwaresolutions.reviewable.Reviewable;
 
 
-class RatingSpec extends spock.lang.Specification {
+class RatingTest extends spock.lang.Specification {
 	Rater nick
 	Reviewable food
 	
